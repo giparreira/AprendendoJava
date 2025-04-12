@@ -15,7 +15,7 @@ public class Perfil {
         double conversao = (celsius * 1.8) + 32;
         System.out.println(conversao);
         int fahrenheit = (int)(conversao);
-        System.out.println(String.format("%d°F", fahrenheit));
+        System.out.printf("%d°F", fahrenheit);
 
         double media1 = 8.9;
         double media2 = 6.2;
